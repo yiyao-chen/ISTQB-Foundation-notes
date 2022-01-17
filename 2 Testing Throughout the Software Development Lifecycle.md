@@ -22,7 +22,8 @@ Examples: Rational Unified Process, Scrum, Kansan, Spiral
 -   Acceptance testing
 
 ### 2.2.1 Component Testing
-Focus on components that are separately testable. **Objectives** include:
+Focus on components that are separately testable. 
+**Objectives** include:
 -  Reducing risk
 -  Verifying whether the functional and non-functional behaviors of the component are as designed and specified
     
@@ -50,6 +51,7 @@ Focus on components that are separately testable. **Objectives** include:
     
 -   Database modules
 **Typical defects and failures**
+
 -   Incorrect functionality (e.g., not as described in design specifications)
     
 -   Data flow problems
@@ -58,6 +60,7 @@ Focus on components that are separately testable. **Objectives** include:
 
 ### 2.2.2 Integration Testing
 Focuses on interactions between components or systems. 
+
 **Objectives**
 -   Reducing risk
     
@@ -104,6 +107,7 @@ Focuses on interactions between components or systems.
 -   Microservices
 
 **Typical defects and failures**
+
 Examples of typical defects and failures for component integration testing include:
 -   Incorrect data, missing data, or incorrect data encoding
     
@@ -135,6 +139,7 @@ Examples of typical defects and failures for system integration testing include:
 
 ### 2.2.3 System Testing
 Focuses on the behavior and capabilities of a whole system or product, often considering the end-to-end tasks the system can perform and the non-functional behaviors it exhibits while performing those tasks.
+
 **Objectives**
 -   Reducing risk
     
@@ -175,6 +180,7 @@ Focuses on the behavior and capabilities of a whole system or product, often con
 -   System configuration and configuration data
     
 **Typical defects and failures**
+
 -   Incorrect calculations
     
 -   Incorrect or unexpected system functional or non-functional behavior
@@ -189,6 +195,7 @@ Focuses on the behavior and capabilities of a whole system or product, often con
 
 ### 2.2.4 Acceptance Testing
 Focuses on the behavior and capabilities of a whole system or product.
+
 **Objectives**
 -   Establishing confidence in the quality of the system as a whole
 -   Validating that the system is complete and will work as expected
@@ -210,7 +217,7 @@ Focused on validating the fitness for use of the system by intended users in a r
 	- Conractual acceptance testing is performed against a contract’s acceptance criteria for producing custom-developed software. 
 	- Regulatory acceptance testing is performed against any regulations that must be adhered to, such as government, legal, or safety regulations.
 - Alpha and beta testing
-Alpha testing is performed at the developing organization’s site, not by the development team, but by potential or existing customers, and/or operators or an independent test team. Beta testing is performed by potential or existing customers, and/or operators at their own locations. Beta testing may come after alpha testing, or may occur without any preceding alpha testing having occurred.
+	- Alpha testing is performed at the developing organization’s site, not by the development team, but by potential or existing customers, and/or operators or an independent test team. Beta testing is performed by potential or existing customers, and/or operators at their own locations. Beta testing may come after alpha testing, or may occur without any preceding alpha testing having occurred.
 
 **Test basis**
 -   Business processes
@@ -232,7 +239,7 @@ Alpha testing is performed at the developing organization’s site, not by the d
 -   Reports
 -   Existing and converted production data  
 
-**Typical defects and failures **
+**Typical defects and failures**
 -   System workflows do not meet business or user requirements
 -   Business rules are not implemented correctly
 -   System does not satisfy contractual or regulatory requirements
@@ -252,8 +259,11 @@ White-box testing derives tests based on the system’s internal structure or im
 ### 2.3.4 Change-ralated Testing
 When changes are made to a system, either to correct a defect or because of new or changing functionality, testing should be done to confirm that the changes have corrected the defect or implemented the functionality correctly, and have not caused any unforeseen adverse consequences.
 - Confirmation testing
+
 Reexecute failed test cases after a defect is fixed
+
 - Regression testing 
+
 Detect unintended regressions (side effects)
 
 ## 2.4 Maintenance Testing
