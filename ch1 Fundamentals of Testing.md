@@ -313,4 +313,11 @@ Test design also results in:
     
 Test summary reports, action items for improvement of subsequent projects or iterations, change requests or product backlog items, and finalized testware.
 
-
+### 1.4.4 Traceability between the Test Basis and Test Work Products
+In addition to the evaluation of test coverage, good tracability supports:
+- Analyzing the impact of change
+- Making testing auditable
+- Meeting IT governance criteria
+- Improving the understandability of test progress reports abd test synnary reports to include the statys of elements of the test basis (e.g., requirements that passed their tests, requirements that failed their tests, and requirements that have pending tests)
+- Relating the rechnical aspects of testing to stakeholders interms that they can understand
+- Providing information to assess product quality, process capability, and project progress against business goals
