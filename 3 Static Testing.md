@@ -58,19 +58,24 @@ Most types of maintainability defects can **only** be found by static testing (e
 ### Roles and responsibilities in a formal review
 Author
 -   Creates the work product under review
--   Fixes defects in the work product under review (if necessary) Management
+-   Fixes defects in the work product under review (if necessary) 
+
+Management
 -   Is responsible for review planning
 -   Decides on the execution of reviews
 -   Assigns staff, budget, and time
 -   Monitors ongoing cost-effectiveness
 -   Executes control decisions in the event of inadequate outcomes
+
 Facilitator (often called moderator)
 -   Ensures effective running of review meetings (when held)
 -   Mediates, if necessary, between the various points of view
 -   Is often the person upon whom the success of the review depends
+
 Review leader
 -   Takes overall responsibility for the review
 -   Decides who will be involved and organizes when and where it will take place
+
 Reviewers
 -   May be subject matter experts, persons working on the project, stakeholders with an interest in the work product, and/or individuals with specific technical or business backgrounds
 -   Identify potential defects in the work product under review
@@ -91,7 +96,7 @@ Scribe (or recorder)
 -   Varies in usefulness depending on the reviewers
 -   Use of checklists is optional
 -   Very commonly used in Agile development
-- 
+
 **Walkthrough**
 -   Main purposes: find defects, improve the software product, consider alternative implementations, evaluate conformance to standards and specifications
     
@@ -110,7 +115,7 @@ Scribe (or recorder)
 -   Potential defect logs and review reports are produced
     
 -   May vary in practice from quite informal to very formal
-- 
+
 **Technical review**
 -   Main purposes: gaining consensus, detecting potential defects
     
@@ -127,7 +132,7 @@ Scribe (or recorder)
 -   Use of checklists is optional
     
 -   Potential defect logs and review reports are produced
-- 
+
 **Inspection**
 -   Main purposes: detecting potential defects, evaluating quality and building confidence in the work product, preventing future similar defects through author learning and root cause analysis
     
@@ -148,7 +153,7 @@ Scribe (or recorder)
     
 -   Author cannot act as the review leader, reader, or scribe
 -   Potential defect logs and review reports are produced
-- Metrics are collected and used to improve the entire software development process, including the inspection process
+-   Metrics are collected and used to improve the entire software development process, including the inspection process
 
 ### Review Techniques
 **Ad hoc**
