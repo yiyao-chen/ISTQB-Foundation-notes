@@ -35,12 +35,17 @@ Most types of maintainability defects can **only** be found by static testing (e
 -   Selecting the people to participate in the review and allocating roles
 -   Defining the entry and exit criteria for more formal review types (e.g., inspections)
 -   Checking that entry criteria are met (for more formal review types)
+-   
 **Initiate review**
 -   Distributing the work product (physically or by electronic means) and other material, such as issue log forms, checklists, and related work products
 -   Explaining the scope, objectives, process, roles, and work products to the participants
--   Answering any questions that participants may have about the review Individual review (i.e., individual preparation)
+-   Answering any questions that participants may have about the review 
+
+**Individual review (i.e., individual preparation)**
 -   Reviewing all or part of the work product
--   Noting potential defects, recommendations, and questions Issue communication and analysis
+-   Noting potential defects, recommendations, and questions 
+
+**Issue communication and analysis**
 -   Communicating identified potential defects (e.g., in a review meeting)
 -   Analyzing potential defects, assigning ownership and status to them
 -   Evaluating and documenting quality characteristics
